@@ -1,0 +1,21 @@
+.navbar-nav .nav-link.active {
+    color: #fff;
+    background-color: orange;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+section {
+    height: 100vh;
+    background-color: azure;
+    padding: 70px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
