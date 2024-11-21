@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,8 @@
 </head>
 <body>
     <header id="header">
-        <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <!-- <div class="navbar navbar-expand-lg bg-dark navbar-dark"> -->
+        <div class="navbar navbar-expand-lg">
             <div class="container">
                 <h1 class="text-white">Rauan Liberato</h1>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
@@ -36,10 +37,22 @@
     </header>
     <div data-bs-spy="scroll" data-bs-target="header">
         <section id="about">
-            <h2>Olá</h2>
+            <!-- <h2>Olá</h2> -->
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <img class="img-fluid" src="imgs/rauan1.png" alt="Rauan">
+                </div>
+                <div class="col-md-8 col-12">
+                    <h2>Olá</h2>
+                    <p>
+                        Esse é meu site pessoal. Aqui você vai encontrar os projetos que criei e as habilidades que desenvolvi.
+                    </p>
+                </div>
+            </div>
         </section>
         <section id="skills">
             <h2>Habilidades</h2>
+            <i class="bi bi-bootstrap-fill"></i>
         </section>
         <section id="projects">
             <h2>Projetos</h2>
@@ -48,8 +61,8 @@
             <h2>Contato</h2>
         </section>
     </div>
-    <footer class="p-4 bg-dark text-white text-center">
-            <p class="text-white text-center">
+    <footer class="p-2 bg-dark text-white text-center">
+            <p class="text-white text-center align-middle m-0">
                 Feito com carinho pelo <a href="https://www.linkedin.com/in/rauan-liberato/">Rauan</a>
             </p>
     </footer>

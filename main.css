@@ -9,13 +9,13 @@
 
 section {
     height: 100vh;
-    background-color: azure;
-    padding: 70px;
+    /* background-color: azure;
+    padding: 70px; */
 }
 
 header {
     position: sticky;
     top: 0;
     left: 0;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
