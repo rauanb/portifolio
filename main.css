@@ -42,4 +42,5 @@ footer p {
 #img-perfil {
   max-width: 544px;
   width: 90%;
+  border-radius: 100%;
 }
